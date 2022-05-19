@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rl4dH+EN61GbwjB5bbm3PIqCUub3dG5hEyhSayUaxcmppY+/zKeuJn9WgU9MTny+5w+sFbz2RHvlva6O9R3KYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sparr\\source\\repos\\personal-projects\\Disco Factory\\Disco Factory\\Disco Factory.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sparr\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\Sparr\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+  ],
+  "logs": []
+}
