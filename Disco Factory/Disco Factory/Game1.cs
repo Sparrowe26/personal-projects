@@ -7,15 +7,27 @@ namespace Disco_Factory
     //for gamestate FSM
     enum GameState
     {
-        Homescreen,
+        MainMenu,
         LevelSelect,
-        Game,
-        Pause
+        Gameplay,
+        Pause,
+        LevelComplete
     }
     public class Game1 : Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private const int WindowWidth = 1080;
+        private const int WindowHeight = 720;
+        private GameState currentState;
+        private TileMap danceFloor;
+        private Player player;
+        //keep track of current level
+        private int level;
+
+        private AssetManager assets;
+        private KeyboardState kbState;
+        private KeyboardState prevKbState;
 
         public Game1()
         {
@@ -28,6 +40,18 @@ namespace Disco_Factory
         {
             // TODO: Add your initialization logic here
 
+            //window size
+            _graphics.PreferredBackBufferWidth = WindowWidth;
+            _graphics.PreferredBackBufferHeight = WindowHeight;
+            _graphics.ApplyChanges();
+
+            currentState = GameState.MainMenu;
+            level = 1;
+
+            assets = new AssetManager();
+            kbState = new KeyboardState();
+            prevKbState = new KeyboardState();
+
             base.Initialize();
         }
 
@@ -36,6 +60,11 @@ namespace Disco_Factory
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            assets.LoadContent(Content);
+
+            danceFloor = new TileMap(assets);
+            player = new Player(new Rectangle(140, 160, assets.doneButton.Width, assets.doneButton.Height), assets);
+
         }
 
         protected override void Update(GameTime gameTime)
@@ -45,14 +74,78 @@ namespace Disco_Factory
 
             // TODO: Add your update logic here
 
+            kbState = Keyboard.GetState();
+
+            //FSM
+            switch (currentState)
+            {
+                case GameState.MainMenu:
+                    
+                    if(kbState.IsKeyUp(Keys.Space) && prevKbState.IsKeyDown(Keys.Space))
+                    {
+                        currentState = GameState.Gameplay;
+                    }
+
+                    break;
+
+                case GameState.Gameplay:
+
+                    player.Update(gameTime);
+                    danceFloor.UpdateFloor(player);
+
+                    if (kbState.IsKeyUp(Keys.Space) && prevKbState.IsKeyDown(Keys.Space))
+                    {
+                        currentState = GameState.MainMenu;
+                    }
+
+                    break;
+
+                case GameState.LevelComplete:
+                    break;
+
+                case GameState.LevelSelect:
+                    break;
+
+                case GameState.Pause:
+                    break;
+            }
+            prevKbState = kbState;
+
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Purple);
+            _spriteBatch.Begin();
 
-            // TODO: Add your drawing code here
+            // FSM
+            switch (currentState)
+            {
+                case GameState.MainMenu:
+                    _spriteBatch.DrawString(assets.font, "HomeScreen", new Vector2(10, 10), Color.White);
+                    break;
+
+                case GameState.Gameplay:
+                    _spriteBatch.Draw(assets.background, new Rectangle(0, 0, WindowWidth, WindowHeight), Color.White);
+
+                    danceFloor.Draw(_spriteBatch);
+                    player.Draw(_spriteBatch);
+                    
+                    _spriteBatch.Draw(assets.border, new Rectangle(0, 0, WindowWidth, WindowHeight), Color.White);
+                    break;
+
+                case GameState.LevelComplete:
+                    break;
+
+                case GameState.LevelSelect:
+                    break;
+
+                case GameState.Pause:
+                    break;
+            }
+
+            _spriteBatch.End();
 
             base.Draw(gameTime);
         }

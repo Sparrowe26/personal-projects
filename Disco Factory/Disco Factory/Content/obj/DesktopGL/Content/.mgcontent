@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Sparr/source/repos/personal-projects/Disco Factory/Disco Factory/Content/blueTile.png</File>
+    <File>C:/Users/Sparr/source/repos/personal-projects/Disco Factory/Disco Factory/Content/border.png</File>
+    <File>C:/Users/Sparr/source/repos/personal-projects/Disco Factory/Disco Factory/Content/doneButton.png</File>
+    <File>C:/Users/Sparr/source/repos/personal-projects/Disco Factory/Disco Factory/Content/doneButtonPressed.png</File>
+    <File>C:/Users/Sparr/source/repos/personal-projects/Disco Factory/Disco Factory/Content/factory.png</File>
+    <File>C:/Users/Sparr/source/repos/personal-projects/Disco Factory/Disco Factory/Content/font.spritefont</File>
+    <File>C:/Users/Sparr/source/repos/personal-projects/Disco Factory/Disco Factory/Content/greenTile.png</File>
+    <File>C:/Users/Sparr/source/repos/personal-projects/Disco Factory/Disco Factory/Content/menuButton.png</File>
+    <File>C:/Users/Sparr/source/repos/personal-projects/Disco Factory/Disco Factory/Content/orangeTile.png</File>
+    <File>C:/Users/Sparr/source/repos/personal-projects/Disco Factory/Disco Factory/Content/purpleTile.png</File>
+    <File>C:/Users/Sparr/source/repos/personal-projects/Disco Factory/Disco Factory/Content/redoButton.png</File>
+    <File>C:/Users/Sparr/source/repos/personal-projects/Disco Factory/Disco Factory/Content/redoButtonPressed.png</File>
+    <File>C:/Users/Sparr/source/repos/personal-projects/Disco Factory/Disco Factory/Content/redTile.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

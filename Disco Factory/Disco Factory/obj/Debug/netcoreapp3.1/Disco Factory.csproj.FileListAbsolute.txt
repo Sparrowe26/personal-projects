@@ -1,0 +1,37 @@
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Disco Factory.exe
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Disco Factory.deps.json
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Disco Factory.runtimeconfig.json
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Disco Factory.runtimeconfig.dev.json
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Disco Factory.dll
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Disco Factory.pdb
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\obj\Debug\netcoreapp3.1\Disco Factory.csproj.AssemblyReference.cache
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\obj\Debug\netcoreapp3.1\Disco Factory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\obj\Debug\netcoreapp3.1\Disco Factory.AssemblyInfoInputs.cache
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\obj\Debug\netcoreapp3.1\Disco Factory.AssemblyInfo.cs
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\obj\Debug\netcoreapp3.1\Disco Factory.csproj.CoreCompileInputs.cache
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\obj\Debug\netcoreapp3.1\Disco Factory.csproj.CopyComplete
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\obj\Debug\netcoreapp3.1\Disco Factory.dll
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\obj\Debug\netcoreapp3.1\Disco Factory.pdb
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\obj\Debug\netcoreapp3.1\Disco Factory.genruntimeconfig.cache
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Content\blueTile.xnb
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Content\border.xnb
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Content\doneButton.xnb
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Content\doneButtonPressed.xnb
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Content\factory.xnb
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Content\greenTile.xnb
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Content\menuButton.xnb
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Content\orangeTile.xnb
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Content\purpleTile.xnb
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Content\redoButton.xnb
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Content\redoButtonPressed.xnb
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Content\redTile.xnb
+C:\Users\Sparr\source\repos\personal-projects\Disco Factory\Disco Factory\bin\Debug\netcoreapp3.1\Content\font.xnb
