@@ -63,7 +63,7 @@ namespace Disco_Factory
             assets.LoadContent(Content);
 
             danceFloor = new TileMap(assets);
-            player = new Player(new Rectangle(140, 160, assets.doneButton.Width, assets.doneButton.Height), assets);
+            player = new Player(new Rectangle(60, 80, assets.doneButton.Width, assets.doneButton.Height), assets);
 
         }
 

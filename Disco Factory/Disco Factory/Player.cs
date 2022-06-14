@@ -36,28 +36,40 @@ namespace Disco_Factory
             //move rectangle up
             if (kbState.IsKeyDown(Keys.Up))
             {
-                position.Y -= speed;
+                if (position.Y > 80)
+                {
+                    position.Y -= speed;
+                }
             }
             //moves rectangle left
             if (kbState.IsKeyDown(Keys.Left))
             {
-                position.X -= speed;
+                if (position.X > 0)
+                {
+                    position.X -= speed;
+                }
             }
             //moves rectangle down
             if (kbState.IsKeyDown(Keys.Down))
             {
-                position.Y += speed;
+                if (position.Y < 720 - position.Height)
+                {
+                    position.Y += speed;
+                }
             }
             //moves rectangle right
             if (kbState.IsKeyDown(Keys.Right))
             {
-                position.X += speed;
+                if (position.X < 1080 - position.Width)
+                {
+                    position.X += speed;
+                }
             }
         }
 
         public void Draw(SpriteBatch sb)
         {
-            sb.Draw(assets.doneButton, Position, Color.White);
+            sb.Draw(assets.menuButton, Position, Color.White);
         }
     }
 }

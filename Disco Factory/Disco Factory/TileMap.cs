@@ -47,6 +47,7 @@ namespace Disco_Factory
 
         public void UpdateFloor(Player player)
         {
+            //check if any of the tiles are being pressed
             foreach (Tile tile in dancefloor)
             {
                 tile.TilePress(player);
@@ -76,6 +77,15 @@ namespace Disco_Factory
             //done button: 350,280 x 2
             //redo button: 430,280 x 2
             //menu button: 500,15 x 2
+        }
+
+        public void Reset()
+        {
+            //check if any of the tiles are being pressed
+            foreach (Tile tile in dancefloor)
+            {
+                tile.TileColor = TileState.Off;
+            }
         }
     }
 }

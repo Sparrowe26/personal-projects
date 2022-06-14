@@ -35,6 +35,7 @@ namespace Disco_Factory
         public TileState TileColor
         {
             get { return tileColor; }
+            set { tileColor = value; }
         }
 
         public int Size
@@ -45,7 +46,7 @@ namespace Disco_Factory
         //constructor
         public Tile(Rectangle rectangle)
         {
-            tileColor = TileState.Blue;
+            tileColor = TileState.Off;
 
             this.rectangle = rectangle;
         }
